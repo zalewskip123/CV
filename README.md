@@ -1,6 +1,6 @@
 # Opis projektu
 
-Jest to projekt CV, który jest zrobiony w technologii React.
+Jest to projekt mojego CV, który jest zrobiony w technologii React.
 
 ### Link do podglądu projektu
 
