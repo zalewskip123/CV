@@ -1,0 +1,77 @@
+.Experience {
+    width: 31vw;
+}
+
+.Experience hr {
+    color: #323B4C;
+    margin-left: 4vw;
+    margin-top: 25px;
+    width: auto;
+}
+
+.ExperienceTitle {
+    margin-left: 4vw;
+    padding-top: 25px;
+    color: #323B4C;
+    font-size: 3.6vmin;
+    font-weight: bold;
+}
+
+.ExperienceList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 4vw;
+    margin-top: 15px;
+    width: auto;
+    gap: 1.5vw;
+}
+
+.DotsExperience {
+    width: calc(2vmin + 10px);
+}
+
+.DotsExperience .Dot {
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 50%;
+    border: 5px solid #323B4C;
+    background-color: whitesmoke;
+}
+
+.DotsExperience .LineBetweenDots {
+    width: 5px;
+    margin: auto;
+    background-color: #323B4C;
+    height: 100%;
+}
+
+.ExperienceDataRows {
+    width: 22vw;
+    margin-right: 5vw;
+}
+
+.ExperienceDataRows p {
+    text-align: left;
+}
+
+.CompanyName {
+    color: #323B4C;
+    font-size: 2.5vmin;
+    font-weight: bold;
+}
+
+.ExperienceDate, .TypeOfPositionAtWork, .Description {
+    color: #323B4C;
+    font-size: 2vmin;
+}
+
+@media (max-width: 665px) {
+    .Experience {
+        width: auto;
+    }
+
+    .ExperienceDataRows {
+        width: 45vw;
+        padding-right: 5vw;
+    }
+}

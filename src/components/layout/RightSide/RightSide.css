@@ -1,0 +1,98 @@
+.RightSide {
+    width: 62vw;
+    height: 100%;
+}
+
+.NameAndLastName p {
+    animation: colorRotate 20s linear 0s infinite;
+    font-family: "GameBoy";
+    font-size: 4.5vmin;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 3px 3px grey;
+}
+
+.AppliedjobPosition p {
+    color: #808080;
+    font-weight: bold;
+    font-size: 3vmin;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 4vw;
+}
+
+.EducationAndExperience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+}
+
+.PersonalDataProtectionStatement {
+    position: absolute;
+    bottom: 20px;
+}
+
+.PersonalDataProtectionStatement p {
+    color: #808080;
+    font-size: 2vmin;
+    padding-left: 4vw;
+    padding-right: 5vw;
+    width: auto;
+}
+
+.DescriptionAboutYourself p {
+    color: #3d3d3d;
+    font-size: 2vmin;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 4vw;
+    padding-right: 5vw;
+}
+
+@font-face {
+    font-family: "GameBoy";
+    src: local("GameBoyFont"),
+    url("../../../fonts/Early GameBoy.ttf") format("truetype");
+}
+
+@keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+    10% {
+        color: #0099ff;
+    }
+    20% {
+        color: #f3dc09;
+    }
+    30% {
+        color: #f309f3;
+    }
+    40% {
+        color: #f8a305;
+    }
+    50% {
+        color: #00ff00;
+    }
+    60% {
+        color: #000000;
+    }
+    70% {
+        color: #ff0000;
+    }
+    80% {
+        color: #008507;
+    }
+    90% {
+        color: #ff3399;
+    }
+    100% {
+        color: #6666ff;
+    }
+}
+
+@media (max-width: 665px) {
+    .EducationAndExperience {
+        display: block;
+    }
+}

@@ -1,0 +1,30 @@
+.PersonalDataTitle {
+    margin-left: 4vw;
+    padding-top: 25px;
+    color: whitesmoke;
+    font-size: 3.6vmin;
+    font-weight: bold;
+}
+
+.PersonalData hr {
+    color: whitesmoke;
+    margin-left: 4vw;
+    margin-top: 25px;
+}
+
+.PersonalDataList p {
+    padding-left: 4vw;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.PersonalDataName p {
+    padding-top: 10px;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+
+.PersonalDataValue p {
+    padding-top: 6px;
+    font-size: 1.5vmin;
+}

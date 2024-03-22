@@ -1,0 +1,83 @@
+.Education {
+    width: 31vw;
+}
+
+.Education hr {
+    color: #323B4C;
+    margin-left: 4vw;
+    margin-top: 25px;
+    width: auto;
+}
+
+.EducationTitle {
+    margin-left: 4vw;
+    padding-top: 25px;
+    color: #323B4C;
+    font-size: 3.6vmin;
+    font-weight: bold;
+}
+
+.EducationList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 4vw;
+    margin-top: 15px;
+    width: auto;
+    gap: 1.5vw;
+}
+
+.DotsEducation {
+    width: calc(2vmin + 10px);
+}
+
+.DotsEducation .Dot {
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 50%;
+    border: 5px solid #323B4C;
+    background-color: whitesmoke;
+}
+
+.DotsEducation .LineBetweenDots {
+    width: 5px;
+    margin: auto;
+    background-color: #323B4C;
+    height: 100%;
+}
+
+.EducationDataRows {
+    width: 22vw;
+    margin-right: 5vw;
+}
+
+.EducationDataRows p {
+    text-align: left;
+}
+
+.NameOfSchool {
+    color: #323B4C;
+    font-size: 2.5vmin;
+    font-weight: bold;
+}
+
+.DateOfEducation, .Qualification, .FieldOfStudy, .Specialization {
+    color: #323B4C;
+    font-size: 2vmin;
+}
+
+.Grade {
+    color: #323B4C;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+
+@media (max-width: 665px) {
+    .Education {
+        width: auto;
+    }
+
+    .EducationDataRows {
+        width: 45vw;
+        padding-right: 5vw;
+    }
+}
