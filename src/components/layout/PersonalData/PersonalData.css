@@ -12,10 +12,16 @@
     margin-top: 25px;
 }
 
-.PersonalDataList p {
+.PersonalDataList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.PersonalDataListLeftSide p {
     padding-left: 4vw;
     text-align: left;
     color: whitesmoke;
+    width: 20vw;
 }
 
 .PersonalDataName p {
@@ -28,3 +34,29 @@
     padding-top: 6px;
     font-size: 1.5vmin;
 }
+
+.PersonalDataLinks .Title {
+    padding-top: 10px;
+    font-size: 2vmin;
+    font-weight: bold;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.PersonalDataLinks a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(76, 76, 218);
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.PersonalDataLinks a:hover {
+    color: yellow;
+    font-size: 3.5vmin;
+}
+
+.PersonalDataLinks .Links {
+    margin-top: 10px;
+}
+
