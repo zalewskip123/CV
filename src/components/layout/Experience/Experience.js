@@ -32,7 +32,7 @@ function Experience() {
                 </div>
                 <div className="ExperienceDataRows">
                     <div className="CompanyName">Studio 102 sp. z o.o.</div>
-                    <div className="ExperienceDate">07.2023 - 08.2024</div>
+                    <div className="ExperienceDate">07.2023 - 08.2023</div>
                     <div className="TypeOfPositionAtWork">Stanowisko - Praktykant</div>
                     <div className="Description">Opis - Praca nad projektami na WordPressie w technologii Gulp</div>
                 </div>
