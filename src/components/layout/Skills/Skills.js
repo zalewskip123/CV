@@ -4,7 +4,7 @@ import "./Skills.css";
 function Skills() {
     return (
         <div className="Skills">
-            <p className="SkillsTitle">Umiejętności</p>
+            <p className="SkillsTitle">Skills</p>
             <hr />
             <div className="SkillsList">
                 <p>C++</p>
@@ -71,7 +71,7 @@ function Skills() {
                     <div className="Disable"></div>
                     <div className="Disable"></div>
                 </div>
-                <p>Administrowanie siecią</p>
+                <p>Network administration</p>
                 <div className="Dots">
                     <div className="Enable"></div>
                     <div className="Enable"></div>
@@ -79,7 +79,7 @@ function Skills() {
                     <div className="Disable"></div>
                     <div className="Disable"></div>
                 </div>
-                <p>Konserwacja sprzętu</p>
+                <p>Maintenance of computer equipment</p>
                 <div className="Dots">
                     <div className="Enable"></div>
                     <div className="Enable"></div>
@@ -119,7 +119,7 @@ function Skills() {
                     <div className="Enable"></div>
                     <div className="Disable"></div>
                 </div>
-                <p>Praca zespołowa</p>
+                <p>Team working</p>
                 <div className="Dots">
                     <div className="Enable"></div>
                     <div className="Enable"></div>
@@ -127,7 +127,7 @@ function Skills() {
                     <div className="Enable"></div>
                     <div className="Disable"></div>
                 </div>
-                <p>Duża motywacja do pracy</p>
+                <p>Great motivation to work</p>
                 <div className="Dots">
                     <div className="Enable"></div>
                     <div className="Enable"></div>
@@ -135,7 +135,7 @@ function Skills() {
                     <div className="Enable"></div>
                     <div className="Disable"></div>
                 </div>
-                <p>Chęć nauki i samorozwoju</p>
+                <p>Interpersonal skills</p>
                 <div className="Dots">
                     <div className="Enable"></div>
                     <div className="Enable"></div>
@@ -143,7 +143,7 @@ function Skills() {
                     <div className="Enable"></div>
                     <div className="Disable"></div>
                 </div>
-                <p>Język angielski</p>
+                <p>English language</p>
                 <div className="Dots">
                     <div className="Enable"></div>
                     <div className="Enable"></div>

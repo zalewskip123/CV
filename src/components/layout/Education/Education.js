@@ -4,7 +4,7 @@ import "./Education.css";
 function Education() {
     return (
         <div className="Education">
-            <p className="EducationTitle">Wykształcenie</p>
+            <p className="EducationTitle">Education</p>
             <hr />
             <div className="EducationList">
                 <div className="DotsEducation">
@@ -12,12 +12,12 @@ function Education() {
                     <div className="LineBetweenDots"></div>
                 </div>
                 <div className="EducationDataRows">
-                    <p className="NameOfSchool">Uniwersytet WSB Merito w Gdyni</p>
+                    <p className="NameOfSchool">WSB Merito Univerity in Gdynia</p>
                     <p className="DateOfEducation">2020 - 2024</p>
-                    <p className="Qualification">Tytuł - Inżynier</p>
-                    <p className="FieldOfStudy">Kierunek - Informatyka</p>
-                    <p className="Specialization">Specjalizacja - Programowanie</p>
-                    <p className="Grade">Ocena - 5</p>
+                    <p className="Qualification">Bachelor's degree - Engineer</p>
+                    <p className="FieldOfStudy">Field of study - IT</p>
+                    <p className="Specialization">Specialization - Programming</p>
+                    <p className="Grade">Grade - 5</p>
                 </div>
                 <div className="DotsEducation">
                     <div className="Dot"></div>
@@ -25,8 +25,8 @@ function Education() {
                 <div className="EducationDataRows">
                     <p className="NameOfSchool">Zespół Szkół Chłodniczych i Elektronicznych w Gdyni</p>
                     <p className="DateOfEducation">2016 - 2020</p>
-                    <p className="Qualification">Tytuł - Technik</p>
-                    <p className="FieldOfStudy">Kierunek - Informatyka</p>
+                    <p className="Qualification">Professional title - Technician</p>
+                    <p className="FieldOfStudy">Field of technician school - IT</p>
                 </div>
             </div>
         </div>
